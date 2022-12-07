@@ -15,6 +15,7 @@ struct InstaSpringApp: App {
             ContentView(triggerRespring: $triggerRespring)
                 .scaleEffect(triggerRespring ? 0.95 : 1)
                 .brightness(triggerRespring ? -1 : 0)
+                .preferredColorScheme(.dark)
                     .statusBarHidden(triggerRespring)
                 .onChange(of: triggerRespring) { _ in
                     if triggerRespring == true {

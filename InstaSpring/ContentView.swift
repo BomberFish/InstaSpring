@@ -16,14 +16,15 @@ struct ContentView: View {
         }
         .onAppear{
             respring()
-
+            
         }
         .drawingGroup(opaque: false, colorMode: .linear)
-                .background(
-                    Rectangle()
-                        .foregroundColor(bg))
-                .ignoresSafeArea()
-        }
+        .background(
+            Rectangle()
+                .foregroundColor(bg))
+        .ignoresSafeArea()
+    }
+
     func respring() {
         withAnimation(.easeInOut) {
             print("respringing right about now")
@@ -35,5 +36,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(triggerRespring: .constant(false))
+            .preferredColorScheme(.dark)
     }
 }
