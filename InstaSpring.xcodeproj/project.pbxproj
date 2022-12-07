@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D628CA19294136E1004D5C33 /* InstaSpringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628CA18294136E1004D5C33 /* InstaSpringApp.swift */; };
+		D628CA1B294136E1004D5C33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628CA1A294136E1004D5C33 /* ContentView.swift */; };
+		D628CA1D294136F5004D5C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D628CA1C294136F5004D5C33 /* Assets.xcassets */; };
+		D628CA20294136F5004D5C33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D628CA1F294136F5004D5C33 /* Preview Assets.xcassets */; };
+		D628CA2A294136F5004D5C33 /* InstaSpringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628CA29294136F5004D5C33 /* InstaSpringTests.swift */; };
+		D628CA34294136F6004D5C33 /* InstaSpringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628CA33294136F6004D5C33 /* InstaSpringUITests.swift */; };
+		D628CA36294136F6004D5C33 /* InstaSpringUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D628CA35294136F6004D5C33 /* InstaSpringUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D628CA26294136F5004D5C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D628CA0D294136E0004D5C33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D628CA14294136E0004D5C33;
+			remoteInfo = InstaSpring;
+		};
+		D628CA30294136F5004D5C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D628CA0D294136E0004D5C33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D628CA14294136E0004D5C33;
+			remoteInfo = InstaSpring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D628CA15294136E0004D5C33 /* InstaSpring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaSpring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D628CA18294136E1004D5C33 /* InstaSpringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSpringApp.swift; sourceTree = "<group>"; };
+		D628CA1A294136E1004D5C33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D628CA1C294136F5004D5C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D628CA1F294136F5004D5C33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D628CA25294136F5004D5C33 /* InstaSpringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaSpringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D628CA29294136F5004D5C33 /* InstaSpringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSpringTests.swift; sourceTree = "<group>"; };
+		D628CA2F294136F5004D5C33 /* InstaSpringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaSpringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D628CA33294136F6004D5C33 /* InstaSpringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSpringUITests.swift; sourceTree = "<group>"; };
+		D628CA35294136F6004D5C33 /* InstaSpringUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSpringUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D628CA12294136E0004D5C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D628CA22294136F5004D5C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D628CA2C294136F5004D5C33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D628CA0C294136E0004D5C33 = {
+			isa = PBXGroup;
+			children = (
+				D628CA17294136E1004D5C33 /* InstaSpring */,
+				D628CA28294136F5004D5C33 /* InstaSpringTests */,
+				D628CA32294136F5004D5C33 /* InstaSpringUITests */,
+				D628CA16294136E0004D5C33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D628CA16294136E0004D5C33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D628CA15294136E0004D5C33 /* InstaSpring.app */,
+				D628CA25294136F5004D5C33 /* InstaSpringTests.xctest */,
+				D628CA2F294136F5004D5C33 /* InstaSpringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D628CA17294136E1004D5C33 /* InstaSpring */ = {
+			isa = PBXGroup;
+			children = (
+				D628CA18294136E1004D5C33 /* InstaSpringApp.swift */,
+				D628CA1A294136E1004D5C33 /* ContentView.swift */,
+				D628CA1C294136F5004D5C33 /* Assets.xcassets */,
+				D628CA1E294136F5004D5C33 /* Preview Content */,
+			);
+			path = InstaSpring;
+			sourceTree = "<group>";
+		};
+		D628CA1E294136F5004D5C33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D628CA1F294136F5004D5C33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D628CA28294136F5004D5C33 /* InstaSpringTests */ = {
+			isa = PBXGroup;
+			children = (
+				D628CA29294136F5004D5C33 /* InstaSpringTests.swift */,
+			);
+			path = InstaSpringTests;
+			sourceTree = "<group>";
+		};
+		D628CA32294136F5004D5C33 /* InstaSpringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D628CA33294136F6004D5C33 /* InstaSpringUITests.swift */,
+				D628CA35294136F6004D5C33 /* InstaSpringUITestsLaunchTests.swift */,
+			);
+			path = InstaSpringUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D628CA14294136E0004D5C33 /* InstaSpring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D628CA39294136F6004D5C33 /* Build configuration list for PBXNativeTarget "InstaSpring" */;
+			buildPhases = (
+				D628CA11294136E0004D5C33 /* Sources */,
+				D628CA12294136E0004D5C33 /* Frameworks */,
+				D628CA13294136E0004D5C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaSpring;
+			productName = InstaSpring;
+			productReference = D628CA15294136E0004D5C33 /* InstaSpring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D628CA24294136F5004D5C33 /* InstaSpringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D628CA3C294136F6004D5C33 /* Build configuration list for PBXNativeTarget "InstaSpringTests" */;
+			buildPhases = (
+				D628CA21294136F5004D5C33 /* Sources */,
+				D628CA22294136F5004D5C33 /* Frameworks */,
+				D628CA23294136F5004D5C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D628CA27294136F5004D5C33 /* PBXTargetDependency */,
+			);
+			name = InstaSpringTests;
+			productName = InstaSpringTests;
+			productReference = D628CA25294136F5004D5C33 /* InstaSpringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D628CA2E294136F5004D5C33 /* InstaSpringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D628CA3F294136F6004D5C33 /* Build configuration list for PBXNativeTarget "InstaSpringUITests" */;
+			buildPhases = (
+				D628CA2B294136F5004D5C33 /* Sources */,
+				D628CA2C294136F5004D5C33 /* Frameworks */,
+				D628CA2D294136F5004D5C33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D628CA31294136F5004D5C33 /* PBXTargetDependency */,
+			);
+			name = InstaSpringUITests;
+			productName = InstaSpringUITests;
+			productReference = D628CA2F294136F5004D5C33 /* InstaSpringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D628CA0D294136E0004D5C33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D628CA14294136E0004D5C33 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D628CA24294136F5004D5C33 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D628CA14294136E0004D5C33;
+					};
+					D628CA2E294136F5004D5C33 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D628CA14294136E0004D5C33;
+					};
+				};
+			};
+			buildConfigurationList = D628CA10294136E0004D5C33 /* Build configuration list for PBXProject "InstaSpring" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D628CA0C294136E0004D5C33;
+			productRefGroup = D628CA16294136E0004D5C33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D628CA14294136E0004D5C33 /* InstaSpring */,
+				D628CA24294136F5004D5C33 /* InstaSpringTests */,
+				D628CA2E294136F5004D5C33 /* InstaSpringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D628CA13294136E0004D5C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D628CA20294136F5004D5C33 /* Preview Assets.xcassets in Resources */,
+				D628CA1D294136F5004D5C33 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D628CA23294136F5004D5C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D628CA2D294136F5004D5C33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D628CA11294136E0004D5C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D628CA1B294136E1004D5C33 /* ContentView.swift in Sources */,
+				D628CA19294136E1004D5C33 /* InstaSpringApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D628CA21294136F5004D5C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D628CA2A294136F5004D5C33 /* InstaSpringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D628CA2B294136F5004D5C33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D628CA34294136F6004D5C33 /* InstaSpringUITests.swift in Sources */,
+				D628CA36294136F6004D5C33 /* InstaSpringUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D628CA27294136F5004D5C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D628CA14294136E0004D5C33 /* InstaSpring */;
+			targetProxy = D628CA26294136F5004D5C33 /* PBXContainerItemProxy */;
+		};
+		D628CA31294136F5004D5C33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D628CA14294136E0004D5C33 /* InstaSpring */;
+			targetProxy = D628CA30294136F5004D5C33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D628CA37294136F6004D5C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D628CA38294136F6004D5C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D628CA3A294136F6004D5C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InstaSpring/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.InstaSpring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D628CA3B294136F6004D5C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InstaSpring/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.InstaSpring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D628CA3D294136F6004D5C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.InstaSpringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaSpring.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InstaSpring";
+			};
+			name = Debug;
+		};
+		D628CA3E294136F6004D5C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.InstaSpringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaSpring.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InstaSpring";
+			};
+			name = Release;
+		};
+		D628CA40294136F6004D5C33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.InstaSpringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstaSpring;
+			};
+			name = Debug;
+		};
+		D628CA41294136F6004D5C33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.bomberfish.InstaSpringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstaSpring;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D628CA10294136E0004D5C33 /* Build configuration list for PBXProject "InstaSpring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D628CA37294136F6004D5C33 /* Debug */,
+				D628CA38294136F6004D5C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D628CA39294136F6004D5C33 /* Build configuration list for PBXNativeTarget "InstaSpring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D628CA3A294136F6004D5C33 /* Debug */,
+				D628CA3B294136F6004D5C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D628CA3C294136F6004D5C33 /* Build configuration list for PBXNativeTarget "InstaSpringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D628CA3D294136F6004D5C33 /* Debug */,
+				D628CA3E294136F6004D5C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D628CA3F294136F6004D5C33 /* Build configuration list for PBXNativeTarget "InstaSpringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D628CA40294136F6004D5C33 /* Debug */,
+				D628CA41294136F6004D5C33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D628CA0D294136E0004D5C33 /* Project object */;
+}
